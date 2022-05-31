@@ -63,7 +63,7 @@ def train_LSTM_network(stock):
     generator = ReadmeGenerator(TOKEN, data.get_stock_short_name())
     generator.write()
 
-    print("prediction is finished")
+    print("prediction finished")
 
 
 # The Main function requires 3 major variables
